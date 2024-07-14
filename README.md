@@ -3,7 +3,7 @@
 Translating Images from one domain to other has been attempted with various methods, one such interesting method employed in recent times is CycleGAN. In CycleGAN two Generators are trained simultaneously, 
 one for the forward mapping between the domains and one for the reverse mapping, which allows introduction of an additional loss term "Cyclic Consistency Loss" enabling both the Generators to learn the transformation effectively.
 Due to the CycleGAN architecture, explicit Image pairs from both the domains are not required during training, the only requirement is presence of two sets each having images from Domain 1 and 2 respectively. CycleGAN implementation
-as done in [Original Paper](https://github.com/phillipi/pix2pix) gave us good results, but our introduction of additonal loss term "Perceptual Style Loss" (inspired from [1](https://arxiv.org/abs/1508.06576) and [2](https://arxiv.org/abs/1603.08155)) 
+as done in [Original Paper](https://github.com/phillipi/pix2pix) gave us good results, but our introduction of additonal loss term "Perceptual Style Loss" ( inspired from [1](https://arxiv.org/abs/1508.06576) and [2](https://arxiv.org/abs/1603.08155) ) 
 in the overall GAN loss, gave us even better results.
 Cubist and Impressionist domains of images/paintings are considered in our implementation.
  
@@ -13,11 +13,14 @@ Cubist and Impressionist domains of images/paintings are considered in our imple
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-
-What things you need to install the software and how to install them
-
+* Python 3.10+
+* Dependencies as given in [requirements](Breadcrumbsimg2img-translation-with-style-loss/requirements.txt)
+* Dataset containing images from both domains
+* Directory structure to be used for the dataset inside project directory
 ```
-Give examples
+    ├── data                  
+        ├── trainA       #to contain images from domain A                    
+        ├── trainB       #to contain images from domain B
 ```
 
 ### Installing
