@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 * Python 3.10+
-* Dependencies as given in [requirements](https://github.com/adwaitgondhalekar/img2img-translation-with-style-loss/requirements.txt)
+* Dependencies as given in [requirements](./requirements.txt)
 * Dataset containing images from both domains
 * Directory structure to be used for the dataset inside project directory
 ```
