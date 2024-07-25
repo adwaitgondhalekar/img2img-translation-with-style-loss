@@ -10,8 +10,6 @@ Cubist and Impressionist domains of images/paintings are considered in our imple
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 * Python 3.10+
 * Dependencies as given in [requirements](./requirements.txt)
@@ -23,53 +21,22 @@ These instructions will get you a copy of the project up and running on your loc
         ├── trainB       #to contain images from domain B
 ```
 
-### Installing
+## Results
+* #### Images labeled as "Original X" correspond to Cubist Images.
+* #### Images labeled as "Original Y" correspond to Impressionist Images.
+* #### Images labeled as "Transformed X" correspond to Cubist Images translated to Impressionist Images.
+* #### Images labeled as "Transformed Y" correspond to Impressionist Images translated to Cubist Images.
+* #### Images labeled as "Reconstructed X" correspond to Cubist Images that went through Cyclic translation <br> (Cubist->Impressionist->Cubist).
+* #### Images labeled as "Reconstructed Y" correspond to Impressionist Images that went through Cyclic translation <br> (Impressionist->Cubist->Impressionist).
 
-A step by step series of examples that tell you how to get a development env running
+![result 1](https://github.com/adwaitgondhalekar/img2img-translation-with-style-loss/blob/main/results/output_1.jpg)
 
-Say what the step will be
+![result 2](https://github.com/adwaitgondhalekar/img2img-translation-with-style-loss/blob/main/results/output_2.jpg)
 
-```
-Give the example
-```
+![result 3](https://github.com/adwaitgondhalekar/img2img-translation-with-style-loss/blob/main/results/output_3.jpg)
 
-And repeat
+![result 4](https://github.com/adwaitgondhalekar/img2img-translation-with-style-loss/blob/main/results/output_4.jpg)
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 
 ## Contributors
