@@ -38,7 +38,8 @@ Cubist and Impressionist domains of images/paintings are considered in our imple
 ![result 4](https://github.com/adwaitgondhalekar/img2img-translation-with-style-loss/blob/main/results/output_4.jpg)
 
 
-
+## Explanation
+[Project Report](https://github.com/adwaitgondhalekar/img2img-translation-with-style-loss/blob/main/project_report.pdf)
 ## Contributors
 
 * **Adwait Gondhalekar** - (https://github.com/adwaitgondhalekar)
